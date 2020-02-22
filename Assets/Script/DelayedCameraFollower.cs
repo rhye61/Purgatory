@@ -20,7 +20,7 @@ public class DelayedCameraFollower : MonoBehaviour
 
     [Tooltip("The delay before the camera starts to follow the target")]
     [SerializeField]
-    private float delay = 0.5f;
+    private float delay = 0.91f;
 
     [SerializeField]
     [Tooltip("The speed used in the lerp function when the camera follows the target")]

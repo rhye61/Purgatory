@@ -40,10 +40,10 @@ public class Health : MonoBehaviour
                 hearts[i].enabled = false;
             }
 
-            //if (health > 0)
-            //{
-            //   Destroy(gameObject);
-            // }
+            if (health > 0)
+            {
+              Destroy(gameObject);
+            }
         }
     }
 
@@ -56,4 +56,4 @@ public class Health : MonoBehaviour
         }
 
     }
-}
+} 
